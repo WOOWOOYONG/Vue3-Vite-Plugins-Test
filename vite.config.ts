@@ -18,13 +18,10 @@ export default defineConfig({
       ]
     }),
     vue(),
-<<<<<<< HEAD
-=======
     Layouts({
       layoutsDirs: 'src/layouts',
       defaultLayout: 'default'
     }),
->>>>>>> 105463f (feat: 新增 vite-plugin-vue-layouts)
     VueDevTools()
   ],
   resolve: {
