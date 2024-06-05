@@ -20,5 +20,9 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
+<<<<<<< HEAD
+=======
+    '/hello': RouteRecordInfo<'/hello', '/hello', Record<never, never>, Record<never, never>>,
+>>>>>>> 105463f (feat: 新增 vite-plugin-vue-layouts)
   }
 }
