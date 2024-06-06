@@ -1,13 +1,13 @@
 <script setup lang="ts"></script>
 <template>
-  <div>
-    <header>
+  <div class="flex min-h-screen flex-col">
+    <header class="h-10 bg-slate-200">
       <nav>Navbar</nav>
     </header>
-    <main>
+    <main class="flex flex-grow justify-center">
       <RouterView />
     </main>
-    <footer>
+    <footer class="h-10 bg-slate-200">
       <div>Footer</div>
     </footer>
   </div>
